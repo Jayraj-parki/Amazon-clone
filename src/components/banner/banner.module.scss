@@ -1,0 +1,74 @@
+.banner {
+  background-color: #EAEDED;
+  position: relative;
+  .carousel {
+    img {
+      object-fit: cover;
+      -webkit-mask-image: linear-gradient(to top, transparent 5%, black 100%);
+      mask-image: linear-gradient(to top, transparent 5%, black 100%);
+    }
+  }
+  .cardContainer {
+    position: absolute;
+    bottom: -90px;
+    z-index: 100;
+    .card {
+
+      .inner {
+        // box-shadow: 0px 4px 7px 2px rgb(207, 207, 207);
+     
+        border-radius: 10px;
+        background-color: white;
+        img{
+          cursor: pointer;
+        }
+      }
+      span {
+        font-size: 22px;
+        font-weight: 700;
+      }
+      img {
+        object-fit: cover;
+        height: 100px;
+      }
+      small {
+        font-size: 12px;
+      }
+      &:nth-child(2){
+        img{
+          object-fit: cover;
+            height: 310px;
+        }
+      }
+      &:last-child{
+        button{
+            border: none;
+            outline: none;
+            border:1px solid #ff9100;
+            font-size: small;
+            background-color: white;
+            border-radius: 10px;
+            &:hover{
+                background-color: #ff9100;
+            }
+        }
+      }
+      .ads{
+        img{
+          cursor: pointer;
+          object-fit: cover;
+            height: auto;
+            
+        }
+      }
+    }
+  }
+  .shop{
+    cursor: pointer;
+    color: blue;
+    &:hover{
+      color: #ff9100;
+      text-decoration: underline;
+    }
+  }
+}

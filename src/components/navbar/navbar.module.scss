@@ -1,0 +1,42 @@
+.navbar{
+    background-color: #232F3E   ;
+    .items{
+        color: white;
+        border: 1px solid #232F3E;
+        cursor: pointer;
+        font-weight: 600;
+        &:hover{
+            border-radius: 1px;
+            border: 1px solid white;
+        }
+    }
+    .offcanvas{
+        .header{
+
+            background-color: #232F3E;
+            button{
+                color: white;
+            }
+            .close{
+                transform: translateX(60px);
+                cursor: pointer;
+            }
+           
+        }
+        .body{
+            span{
+                font-size: 15px;
+                font-weight: 400;
+                cursor: pointer;
+                &:hover{
+                    background-color: #EAEDED;
+                }
+            }
+            .iconRot{
+                // display: none;
+                transform: rotate(90deg);
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,27 @@
+.home {
+  background-color: #eaeded;
+  position: relative;
+  .bottomSignin {
+    button {
+      background-color: #FFC83D;
+      outline: none;
+      border: 1px solid #c06d02;
+      font-weight: bold;
+      font-size: small;
+      text-align: center;
+      border-radius: 5px;
+    }
+    small{
+      font-size: smaller;
+      font-weight:400;
+    }
+    span {
+      color: blue;
+      cursor: pointer;
+      &:hover{
+        color: #fe9001;
+        text-decoration: underline;
+      }
+    }
+  }
+}

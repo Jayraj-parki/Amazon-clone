@@ -1,0 +1,80 @@
+.footer {
+  .back {
+    background-color: #37475a;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .list {
+    background-color: #232f3e;
+    color: white;
+    span {
+      font-weight: bold;
+    }
+    ul {
+      list-style: none;
+      li {
+        font-size: 15px;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .countries {
+    background-color: #232f3e;
+    .header {
+      button {
+        outline: none;
+        color: white;
+        background: transparent;
+        border-radius: 5px;
+        border: 1px solid white;
+        font-size: small;
+        .switch {
+          transform: rotate(90deg);
+        }
+      }
+    }
+    .list {
+      ul {
+        list-style: none;
+        color: white;
+        li {
+          font-size: small;
+        }
+      }
+    }
+    }
+.end {
+    color: white;
+    background-color: #131a22;
+    p{
+        font-size: small;
+    }
+    span {
+        color: #879989;
+        font-size: 11px;
+    }
+    .link {
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .additionalInfo {
+      ul {
+        list-style: none;
+        color: white;
+        li {
+          font-size: small;
+          cursor: pointer;
+          &:hover {
+              text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

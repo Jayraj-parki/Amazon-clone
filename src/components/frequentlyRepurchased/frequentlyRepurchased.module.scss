@@ -1,0 +1,40 @@
+.frequentlyRepurchased {
+  
+  *{
+    box-sizing: border-box;
+  }
+  .content {
+    // box-shadow: 0px 4px 7px 2px rgb(207, 207, 207);
+    background-color: white;
+    border-radius: 10px;
+    .slider {
+      overflow-x: auto;
+    //   height: 300px;
+    img{
+        cursor: pointer;
+    }
+    &::-webkit-scrollbar {
+        height: 5px;
+        border-radius: 10px;
+      }
+      
+      /* Track */
+      &::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+      
+      /* Handle on hover */
+      &::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+    img{
+        object-fit: cover;
+    }
+    }
+  }
+}

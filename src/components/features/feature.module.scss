@@ -1,0 +1,59 @@
+.features {
+  .card {
+    *{
+      img{
+
+          cursor: pointer;
+      }
+  }
+    .inner {
+      // box-shadow: 0px 0px 7px 2px rgb(207, 207, 207);
+      border-radius: 10px;
+      background-color: white;
+    }
+    span {
+      font-size: 22px;
+      font-weight: 700;
+    }
+    img {
+      object-fit: cover;
+      height: 100px;
+    }
+    small {
+      font-size: 12px;
+    }
+    &:nth-child(2) {
+      img {
+        object-fit: cover;
+        height: 250px;
+      }
+    }
+    &:last-child {
+      button {
+        border: none;
+        outline: none;
+        border: 1px solid #ff9100;
+        font-size: small;
+        background-color: white;
+        border-radius: 10px;
+        &:hover {
+          background-color: #ff9100;
+        }
+      }
+    }
+    .ads {
+      img {
+        object-fit: cover;
+        height: auto;
+      }
+    }
+  }
+}
+.shop {
+  cursor: pointer;
+  color: blue;
+  &:hover {
+    color: #ff9100;
+    text-decoration: underline;
+  }
+}

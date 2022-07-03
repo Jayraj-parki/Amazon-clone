@@ -1,0 +1,129 @@
+.header {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  * {
+    // color: white;
+    border-radius: 2px;
+  }
+  strong,small{
+    color: white;
+  }
+  .searchIcon {
+    color: black !important;
+  }
+  .logo {
+    img {
+      border: 1px solid black;
+      &:hover {
+        border: 1px solid white;
+      }
+    }
+  }
+  .address {
+    small {
+      font-size: smaller;
+    }
+    strong {
+      font-size: small;
+    }
+    border: 1px solid black;
+    border-radius: 2px;
+    &:hover {
+      border: 1px solid white;
+    }
+  }
+  .searchbar {
+    border-radius: 2px;
+    &:hover {
+      box-shadow: 0px 0px 1px 2px #ff9100;
+      background-color: #ff9100;
+      border: 1px solid #fe9001;
+    }
+    span {
+      &:nth-child(1) {
+        background-color: #ececeb;
+        color: #777675;
+        font-size: smaller;
+        &:hover {
+          background-color: #abaaa9;
+        }
+      }
+      &:last-child {
+        border-color: #febd69;
+        background-color: #febd69;
+        &:hover {
+          background-color: #fe9001;
+        }
+      }
+    }
+    input {
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+ 
+  .language {
+    *{
+      color: white;
+    }
+    border: 1px solid black;
+    &:hover {
+      border: 1px solid white;
+    }
+  }
+  .auth {
+    small {
+      font-size: smaller;
+    }
+    strong {
+      font-size: small;
+    }
+    border: 1px solid black;
+    &:hover {
+      border: 1px solid white;
+    }
+  }
+  .orders {
+    small {
+      font-size: smaller;
+    }
+    strong {
+      font-size: small;
+    }
+    border: 1px solid black;
+    &:hover {
+      border: 1px solid white;
+    }
+  }
+  img {
+    object-fit: cover;
+  }
+  .cartContainer {
+    *{
+      color: white;
+    }
+    border: 1px solid black;
+    &:hover {
+      border: 1px solid white;
+    }
+    .cart {
+      position: relative;
+
+      small {
+        background-color: black;
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #fe9001;
+        top: -5px;
+        left: 5px;
+        color: white;
+        font-size: smaller;
+      }
+    }
+  }
+}
